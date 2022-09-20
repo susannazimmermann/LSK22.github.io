@@ -1,0 +1,108 @@
+
+
+body{ background-color:#0091A014; 
+padding-top:20px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+div.h{with:$(window).width();}
+
+
+h1{
+color:#000000; 
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+font-size: 40px;
+}
+
+h2{
+color:#000000;
+font-size: 20px; 
+font-family:Arial, Helvetica, sans-serif;
+padding:5px; 
+font-weight:lighter;
+text-align:center;
+}
+
+
+p{
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul{
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom:5px;
+}
+
+li{padding-top:8px;}
+
+a:link{
+color: #00353B
+background-color:transparent;
+text-decoration:none;
+}
+
+a{
+color: #00353B ;
+background-color:transparent;
+text-decoration:none;
+}
+
+
+
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: none; 
+  background-color: transparent;
+  width: 200px;
+  height: 400px;
+  margin-bottom:10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.1s;
+  font-size: 16px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #0091A03D;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #0091A091;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: none; 
+  width: 550px;
+  border-left: none;
+  height: 400px;
+  text-align: left;
+  background-color: inherit;
+}
+
